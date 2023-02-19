@@ -118,7 +118,7 @@ section {
     font-size: 55px;
 }
 
-.review .person {
+.Review .person {
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(0,0,0,0.07) ;
@@ -127,16 +127,16 @@ section {
      
 }
 
-.review img {
+.Review img {
     width: 75px;
     height: 75px;
     border-radius: 100px;
 }
 
-.review{
+.Review{
     box-shadow: 0 18px 18px rgba(0, 0, 0, 0.1);
 }
-.review .stars{
+.Review .stars{
     color: orange;
 }
 
