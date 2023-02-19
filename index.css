@@ -172,3 +172,64 @@ footer a{
 .video-btn i {
     font-size:32px ;
 }
+
+.social{
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+}
+
+.social-icon{
+    display: flex;
+}
+.social-icon a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color:rgba(7, 19, 239, 0.8);
+    background-color: rgba(229, 77, 6, 0.5);
+    box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+    margin: 0 30px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+
+}
+
+.social-icon a .fa-brands{
+    font-size: 30px;
+    line-height: 80px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+
+}
+
+.social-icon a::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: -90px;
+    left: 0;
+    position: absolute;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.social-icon a:hover::after{
+    top: 0;
+}
+
+.social-icon a:hover .fa-brands {
+    color: #db0e0e;
+}
+.social-icon a:hover{
+    transform: translateY(-15px);
+}
