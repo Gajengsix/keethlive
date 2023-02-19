@@ -174,8 +174,6 @@ footer a{
 }
 
 .social{
-    width: 100%;
-    height: 30vh;
 
     display: flex;
     align-items: center;
@@ -227,7 +225,7 @@ footer a{
     top: 0;
 }
 
-.social-icon a:hover .fa-brands {
+.social-icon a:hover .fa-brands .fa-facebook-f{
     color: #db0e0e;
 }
 .social-icon a:hover{
