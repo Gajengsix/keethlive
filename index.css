@@ -237,7 +237,7 @@ footer a{
     top: -90px;
     left: 0;
     position: absolute;
-    background-color: #000;
+    background-color: #ffffff;
     transition: 0.5s;
 }
 
@@ -245,8 +245,17 @@ footer a{
     top: 0;
 }
 
-.social-icon a:hover .fa-brands .fa-facebook-f{
-    color: #db0e0e;
+.social-icon a:hover .maxf{
+    color: #3b5998;
+}
+.social-icon a:hover .maxt{
+    color: #55acee;
+}
+.social-icon a:hover .maxl{
+    color: #0077b5;
+}
+.social-icon a:hover .maxi{
+    color:  #f09433;
 }
 .social-icon a:hover{
     transform: translateY(-15px);
