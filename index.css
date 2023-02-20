@@ -180,10 +180,28 @@ footer a{
     flex-direction: column;
     justify-content: center;
     margin: 40px;
+   
 }
 
 .social-icon{
     display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow:wrap;
+    
+}
+
+@media screen and (max-width:1200px) {
+    .fa-brands{
+        width:40%;
+    }  
+}
+
+@media screen and (max-width:6oopxpx) {
+    .fa-brands{
+        width:90%;
+    }  
 }
 .social-icon a{
     width: 80px;
@@ -198,8 +216,10 @@ footer a{
     position: relative;
     overflow: hidden;
     transition: transform 0.5s;
+    margin: 20px;
 
 }
+
 
 .social-icon a .fa-brands{
     font-size: 30px;
